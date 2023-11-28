@@ -4,7 +4,7 @@ export function aufgabe01(args) {
 
    
 
-  for (let i = 0; i < input.length; i++) {
+  for (let i = 0; i < input.length; 1++) {
     const currentElement = input[i]
     if (currentElement != "e") {
     if (currentElement != "E")
@@ -20,10 +20,22 @@ export function aufgabe02(args) {
   return result 
 }
 
+export function aufgabe03(args) {
+const input = args
+const result = 0
 
 
+for (let i = 0; i < input.length; 1++) {
+const currentElement = input[i]
+if (currentElement === "e" || currentElement === "E") {
+  result++
+}
+}
+return result
+}
 
-
-
+export function aufgabe04(args) {
+  
+}
 
 

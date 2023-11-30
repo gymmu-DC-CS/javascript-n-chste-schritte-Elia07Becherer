@@ -40,4 +40,14 @@ export function aufgabe04(args) {
   return words.length;
 }
 
+export function aufgabe05(args) {
+
+  const input = args 
+  if (input.toLowerCase() === input) {
+    return false 
+  } else {
+    return true
+  }
+
+}
 

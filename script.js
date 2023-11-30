@@ -2,9 +2,7 @@ export function aufgabe01(args) {
   const input = args
   const result = []
 
-   
-
-  for (let i = 0; i < input.length; 1++) {
+  for (let i = 0; i < input.length; i++) {
     const currentElement = input[i]
     if (currentElement != "e") {
     if (currentElement != "E")
@@ -25,17 +23,21 @@ const input = args
 const result = 0
 
 
-for (let i = 0; i < input.length; 1++) {
-const currentElement = input[i]
+for (let i = 0; i < input.length; i++) {
+const currentElement = input [i]
 if (currentElement === "e" || currentElement === "E") {
-  result++
+  result++;
 }
 }
 return result
 }
 
 export function aufgabe04(args) {
-  
+
+    const cleanText = args.replace(/[^\w\s]/gi,'');
+    const words = cleanText.split(/\s+/);
+
+  return words.length;
 }
 
 

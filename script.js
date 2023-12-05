@@ -50,4 +50,23 @@ export function aufgabe05(args) {
   }
 
 }
+ 
+export function aufgabe06(args) {
 
+const scanText = args
+
+
+  
+}
+
+export function aufgabe12(args) {
+  const input = args
+  let result = -1
+  
+  for (let i = 0; i < input.length; i++) {
+    if (currentElement === "e") {
+      result = i
+      break
+    }
+  }
+}

@@ -53,13 +53,43 @@ export function aufgabe05(args) {
  
 export function aufgabe06(args) {
 
-const scanText = args
+const input = args
 if (input === "") {
   return false 
 }
-
-  
+for (let i = 0; i < input.length; i++) {
+  const currentElement = input[i].toLowerCase()
+  if (currentElement.charCodeAt() < 97 || currentElement.charCodeAt() > 122) {
+    if (currentElement.charCodeAt() != 32) {
+      return true
+    }
+  }
 }
+  return false
+}
+
+export function aufgabe07(args) {
+const input = args      
+
+if (
+  (input.indexOf(" und ") != -1 && input.indexOf("Und") != 0) ||
+  input.indexOf("Und") === 0 ||
+  input === "und"
+)
+return true
+else return false
+}
+
+
+
+
+
+
+
+
+
+
+
 
 export function aufgabe12(args) {
   const input = args

@@ -80,6 +80,16 @@ return true
 else return false
 }
 
+export function aufgabe08(args) {
+
+  const input = args
+  const result = []
+  
+ 
+ 
+}
+
+
 
 
 

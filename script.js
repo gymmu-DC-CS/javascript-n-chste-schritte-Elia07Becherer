@@ -80,20 +80,6 @@ return true
 else return false
 }
 
-export function aufgabe08(args) {
-
-  const input = args
-  const result = []
-
-  for (let i = 0; i < input.length; i++) {
-    const currentElement = input[i]
-
-    if (currentElement === "e") {
-
-    }
-  }
-  
-}
 
 
 export function aufgabe09(args) {
@@ -128,19 +114,6 @@ export function aufgabe11(args) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 export function aufgabe12(args) {
   const input = args
   let result = -1
@@ -166,13 +139,6 @@ export function aufgabe14(args) {
   const thirdE = args.indexOf('e', secondE + 1);
 
   return thirdE !== -1 ? thirdE : "-1";
-}
-
-
-export function aufgabe15(args) {
-  const indexOfSpace = args.indexOf(' ');
-
-  return indexOfSpace !== -1 ? args.slice(0, indexOfSpace) : args;
 }
 
 
